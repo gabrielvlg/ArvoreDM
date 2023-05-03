@@ -57,7 +57,7 @@ using namespace std;
             NoNovo -> filhodireita = NULL;
             NoNovo -> filhoesquerda = NULL;
             if(raiz == NULL){
-                raiz == NoNovo;
+                raiz = NoNovo;
             } else{
                 No* temp = raiz;
                 while(temp != NULL){
